@@ -228,4 +228,15 @@ body {
     }
 
     .inicio p {
-        font-size
+        font-size: 16px;
+    }
+
+    .inicio .btn {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .box-container {
+        grid-template-columns: 1fr;
+    }
+}

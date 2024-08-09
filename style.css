@@ -196,6 +196,8 @@ body {
     .nav-links a {
         padding: 10px 20px;
         text-align: left;
+        font-size: 16px;
+        width: 100%;
     }
 
     .inicio h1 {
@@ -212,13 +214,12 @@ body {
     }
 
     .box-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .box {
-        width: auto;
+        width: 90%;
     }
 }
 
@@ -236,7 +237,20 @@ body {
         padding: 6px 12px;
     }
 
+    .clases h2, .horarios h2, .contacto h2 {
+        font-size: 28px;
+    }
+
+    .clases p, .horarios p, .contacto p {
+        font-size: 18px;
+    }
+
     .box-container {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        margin: 10px 0;
     }
 }
